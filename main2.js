@@ -14,10 +14,11 @@ let person = {
     likesChocolate: true,
 };
 
+person.name = "Joan";
+person.likesChocolate = false;
+
 if (person.likesChocolate === true) {
     console.log(`${person.name} loves chocolate`);
 } else {
     console.log(`${person.name} hates chocolate`);
 };
-
-person.name = "Joan";
